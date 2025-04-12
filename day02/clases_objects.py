@@ -36,7 +36,7 @@ class Item:
     def static_method():
         print(f"This is a static method")
 
-    @classmethod  # equivilent to static method of java: only accept static variables
+    @classmethod  # equivalent to static method of java: only accept static variables
     def class_method(cls):
         print(f"This is a class method: {cls.made_in}")
 
